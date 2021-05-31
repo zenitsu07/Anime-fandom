@@ -1,0 +1,149 @@
+/* ul{
+  width: fit-content;
+  
+  
+} */
+body{
+  display: none;
+  min-width: 400px;
+  max-width: 1400px;
+  
+}
+/* .menu{
+  margin-left: 5vw;
+  background-image: linear-gradient(#cc2b5e , #753a88);
+  border-radius: 30%;
+  opacity: 1;
+  padding: 1.5vw 2.5vh;
+  color: white;
+
+}
+#menu-1{
+  margin-left: 15vw;
+} */
+.navbar{
+  margin: 3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5vh 0;
+}
+.intro p{
+    background-color: rgb(255, 152, 0.5);
+    padding: 1em;
+    text-align: center;
+    width: 30vw;
+    font-weight: bold;
+    font-size: 4vh;
+    margin-left: 20vw;
+    margin-top: 2em;
+    height: fit-content;
+    color: rgb(2, 42, 227);
+    border-radius: 40%;
+}
+.intro{
+    background-image: url(bg-1.png);
+    width: 80vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background: cover;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+.container{
+  background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjIyNDQzNzMy&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400);
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  /* background-color: rgb(32, 32, 36); */
+  width: 100vw;
+  height: auto;
+  text-align: center;
+
+    min-width:400px;
+    width: auto !important;
+    
+
+}
+.cards{
+  background-color: white;
+  width: 20vw;
+  padding: 2em;
+  /* height: auto; */
+  margin-left: 10vw;
+  margin: 3em;
+  background-image: linear-gradient(#cc2b5e , #753a88);
+  border-radius: 30px;
+  opacity: 0.6;
+  /* box-sizing: border-box; */
+  
+  transition: 1s;
+}
+.cards:hover{
+  transform: scale(1.1);
+  background-color: gray;
+  opacity: 1;  
+}
+h3{margin-bottom: 0;
+  font-size: 1.4em;
+
+}
+p{
+  /* padding-bottom: ; */
+  font-size: 1.2em;
+  box-sizing: border-box;
+
+}
+.des{
+  font-family: dyuthi;
+  color: white;
+}
+
+img{
+  width: 100%;
+  height: 330px;border-radius: 100%;
+
+}
+title{
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: dyuthi;
+}
+
+@media(min-width:280px){
+  body{
+  display: block;
+  font-size: auto;
+}
+
+  .intro p{
+    font-size: auto;
+  }
+}
+@media(max-width:550px){
+  .menu{
+    margin-left: auto;
+   padding: auto;
+   
+  }
+  .container,nav{
+    margin-left: auto;
+    width: auto;
+
+  }
+  .cards{
+    width: auto;
+    padding: auto;
+    box-sizing: border-box;
+  }
+}
+@media(max-width: 420px) {
+    intro p{
+      padding: fixed;
+    }
+}
+@media(min-width:1400px){
+  body{
+    display: none;
+  }
+}
