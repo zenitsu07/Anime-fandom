@@ -4,23 +4,11 @@
   
 } */
 body{
-  display: none;
   min-width: 400px;
   max-width: 1400px;
   
 }
-/* .menu{
-  margin-left: 5vw;
-  background-image: linear-gradient(#cc2b5e , #753a88);
-  border-radius: 30%;
-  opacity: 1;
-  padding: 1.5vw 2.5vh;
-  color: white;
 
-}
-#menu-1{
-  margin-left: 15vw;
-} */
 .navbar{
   margin: 3em;
   display: flex;
