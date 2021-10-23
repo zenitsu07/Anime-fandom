@@ -130,8 +130,4 @@ title{
       padding: fixed;
     }
 }
-@media(min-width:1400px){
-  body{
-    display: none;
-  }
-}
+
